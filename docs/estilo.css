@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fdf6e3; /* Color suave y cálido, ideal para una cafetería */
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #6f4f37; /* Color marrón, asociable al café */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 2.5em; /* Aumenté el tamaño para que sea más destacado */
+  }
+  
+  #catalogo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 30px;
+  }
+  
+  .tarjeta {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    width: 280px;
+    text-align: center;
+    transition: transform 0.3s;
+    border: 1px solid #ddd; /* Le da un toque sutil de borde */
+  }
+  
+  .tarjeta:hover {
+    transform: scale(1.03);
+  }
+  
+  .tarjeta img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .tarjeta h3 {
+    margin: 10px 0;
+    color: #6f4f37; /* Marrón para los títulos */
+  }
+  
+  .tarjeta p {
+    margin: 5px 10px;
+    color: #5c4033; /* Un marrón más oscuro para el texto descriptivo */
+  }
+  
+  .precio {
+    font-size: 1.2em;
+    color: #d2691e; /* Un tono de naranja cálido para resaltar el precio */
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .boton {
+    display: inline-block;
+    background-color: #c0392b; /* Rojo cálido para los botones */
+    color: white;
+    padding: 10px 20px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s;
+  }
+  
+  .boton:hover {
+    background-color: #e74c3c; /* Rojo más brillante al pasar el mouse */
+  }
+  
+  footer {
+    text-align: center;
+    background-color: #6f4f37; /* Mismo color marrón para el pie */
+    color: white;
+    padding: 15px 0;
+    margin-top: 20px;
+  }
+  
